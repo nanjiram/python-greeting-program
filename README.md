@@ -1,32 +1,20 @@
-# Python Greeting App
+# Python Calculator
 
-This is a simple Python program that greets users and collects feedback from them.
+This simple Python script allows you to:
+- Calculate the area of a circle.
+- Convert Celsius to Fahrenheit.
 
-## 💻 How to Run
+## How to Run
 
-1. Open a terminal.
-2. Navigate to the folder containing `greeting.py`.
-3. Run the following command:
-
-
-## 📸 Sample Output
-
-Below is a sample interaction with the program:
-
-Please enter your name: Mary
-What day of the week is it today? Monday
-Hello, Mary! Happy Monday!
-What do you think about this greeting program? It's great!
-Thank you for your feedback!
+```bash
+python calculator.py
+Author
+nanjiram
 
 
-## 📂 Repository Structure
+#### 2. Add and push the README
+```powershell
+git add README.md
+git commit -m "Add README with project description"
+git push
 
-python-greeting-app/
-│
-├── greeting.py # The main Python script
-├── README.md # This file
-
-## 🔗 Author
-
-GitHub: [nanjiram](https://github.com/nanjiram)
