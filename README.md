@@ -1,34 +1,21 @@
-# IST1025 Grading Script
+# Python Greeting Program
 
-This Python script calculates the final course grade based on:
+This is a  Python script that prompts the user for their name and the current day of the week, then displays a personalized greeting message. It also collects user feedback on the program.
 
-- 8 lab scores (weighted 50%)
-- Mid-semester exam score (weighted 25%)
-- Final exam score (weighted 25%)
+ Features
 
-It outputs the final weighted score and the corresponding letter grade.
+- Prompts the user for their name
+- Asks for the current day of the week
+- Displays a personalized greeting
+- Collects and thanks the user for feedback
 
-## How to Run
+How to Run the Script
 
-1. Make sure you have Python installed.
-2. Open the terminal in this folder and run:
+1. Make sure you have Python installed on your computer.
+2. Open a terminal or command prompt.
+3. Navigate to the folder containing `greeting.py`.
+4. Run the script using:
 
-python grading.py
-
-
-3. Follow the prompts to input scores.
-
-## Grading Scale
-
-| Grade | Score     |
-|-------|-----------|
-| A     | 90-100    |
-| B     | 80-89     |
-| C     | 70-79     |
-| D     | 60-69     |
-| F     | 0-59      |
-
----
-
-Created by [nanjiram](https://github.com/nanjiram)
+```bash
+python greeting.py
 
