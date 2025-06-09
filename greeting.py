@@ -1,21 +1,16 @@
-# greeting.py
 
-def main():
-    name = input("Please enter your name: ")
-    day = input("What day of the week is it today? ")
-    print(f"Hello, {name}! Happy {day}!")
 
-if __name__ == "__main__":
-    main()
-def get_feedback():
-    feedback = input("What do you think about this greeting program? ")
-    print("Thank you for your feedback!")
+# Ask the user for their name
+name = input("Please enter your name: ")
 
-def main():
-    name = input("Please enter your name: ")
-    day = input("What day of the week is it today? ")
-    print(f"Hello, {name}! Happy {day}!")
-    get_feedback()
+# Ask what day it is
+day = input("What day of the week is it today? ")
 
-if __name__ == "__main__":
-    main()
+# Print a greeting message
+print("Hello,", name + "! Happy", day + "!")
+
+# Ask for feedback
+feedback = input("What do you think of this greeting program? ")
+
+# Thank the user
+print("Thank you for your feedback!")
