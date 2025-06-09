@@ -9,8 +9,11 @@ day = input("What day of the week is it today? ")
 # Print a greeting message
 print("Hello,", name + "! Happy", day + "!")
 
-# Ask for feedback
-feedback = input("What do you think of this greeting program? ")
 
-# Thank the user
-print("Thank you for your feedback!")
+# Define the feedback function
+def get_feedback():
+    feedback = input("What do you think of this greeting program? ")
+    print("Thank you for your feedback!")
+
+# Call the feedback function
+get_feedback()
